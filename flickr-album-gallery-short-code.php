@@ -119,10 +119,6 @@ function FlickerAlbumGalleryShortCode( $Id ) {
 				});
 			});
 			</script>
-			
-			<div align="center" style="font-size: small; margin-bottom:20px; margin-top:25px; width:100%; float: left;">
-				Flickr Album Gallery Powered By: <a href="http://www.weblizar.com/" target="_blank">Weblizar</a>
-			</div>
 			<?php
 	} else {
 		echo "<div align='center' class='alert alert-danger'>".__("Sorry! Invalid Flicker Album Shortcode Embedded", FAG_TEXT_DOMAIN )."</div>";
